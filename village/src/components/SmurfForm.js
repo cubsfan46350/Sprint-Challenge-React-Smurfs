@@ -26,7 +26,7 @@ class SmurfForm extends Component {
       })
       .catch(err => console.log(err));
   };
-  }
+  
 
   handleInputChange = e => {
     this.setState({ [e.target.name]: e.target.value });
@@ -59,7 +59,7 @@ class SmurfForm extends Component {
       </div>
     )
   }
-  
+}
 
 
 export default SmurfForm;
